@@ -1,0 +1,16 @@
+总文档地址：
+http://192.168.0.208:4587
+
+旧粉猫：
+主项目地址：https://192.168.0.209:8443/svn/huotu/branches/android/FanMore/FanMore2.4.0
+library地址：https://192.168.0.209:8443/svn/huotu/branches/android/lib
+接口文档：https://192.168.0.209:8443/svn/huotu/trunk/doc/APP
+
+新粉猫：
+项目地址：https://192.168.0.209:8443/svn/huotu/trunk/mobile/newfanmore/android/flowmao1.0/FlowMao
+
+伙伴客：
+项目地址：https://192.168.0.209:8443/svn/huotu/trunk/mobile/huobanplus/android/branches/v1.1/SFriend1.1
+library地址:https://192.168.0.209:8443/svn/huotu/trunk/mobile/huobanplus/android/branches/library
+
+
