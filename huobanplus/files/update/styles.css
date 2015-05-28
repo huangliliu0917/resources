@@ -17,7 +17,7 @@
   left:90px;
   top:100px;
   width:826px;
-  height:1905px;
+  height:2000px;
 }
 #u1 {
   position:absolute;
@@ -2592,34 +2592,127 @@
 }
 #u225 {
   position:absolute;
+  left:0px;
+  top:1900px;
+  width:163px;
+  height:95px;
+  text-align:center;
+}
+#u225_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:163px;
+  height:95px;
+}
+#u226 {
+  position:absolute;
+  left:2px;
+  top:40px;
+  width:159px;
+  word-wrap:break-word;
+}
+#u227 {
+  position:absolute;
+  left:163px;
+  top:1900px;
+  width:419px;
+  height:95px;
+  font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';
+  font-weight:200;
+  font-style:normal;
+}
+#u227_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:419px;
+  height:95px;
+}
+#u228 {
+  position:absolute;
+  left:2px;
+  top:41px;
+  width:415px;
+  word-wrap:break-word;
+}
+#u229 {
+  position:absolute;
+  left:582px;
+  top:1900px;
+  width:65px;
+  height:95px;
+  text-align:center;
+}
+#u229_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:65px;
+  height:95px;
+}
+#u230 {
+  position:absolute;
+  left:2px;
+  top:40px;
+  width:61px;
+  word-wrap:break-word;
+}
+#u231 {
+  position:absolute;
+  left:647px;
+  top:1900px;
+  width:174px;
+  height:95px;
+  font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';
+  font-weight:200;
+  font-style:normal;
+  text-align:center;
+}
+#u231_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:174px;
+  height:95px;
+}
+#u232 {
+  position:absolute;
+  left:2px;
+  top:41px;
+  width:170px;
+  word-wrap:break-word;
+}
+#u233 {
+  position:absolute;
   left:90px;
   top:77px;
   width:198px;
   height:23px;
   font-size:20px;
 }
-#u225_img {
+#u233_img {
   position:absolute;
   left:0px;
   top:0px;
   width:198px;
   height:23px;
 }
-#u226 {
+#u234 {
   position:absolute;
   left:0px;
   top:0px;
   width:198px;
   white-space:nowrap;
 }
-#u227 {
+#u235 {
   position:absolute;
   left:809px;
   top:69px;
   width:100px;
   height:25px;
 }
-#u227_input {
+#u235_input {
   position:absolute;
   left:0px;
   top:0px;
