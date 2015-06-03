@@ -1,0 +1,17 @@
+com.huotu.common
+com.huotu.fanmore.api
+com.huotu.fanmore.api.common
+com.huotu.fanmore.boot
+com.huotu.fanmore.bootconfig
+com.huotu.fanmore.config
+com.huotu.fanmore.controller
+com.huotu.fanmore.controller.apiimp
+com.huotu.fanmore.dao
+com.huotu.fanmore.exception
+com.huotu.fanmore.interceptor
+com.huotu.fanmore.model
+com.huotu.fanmore.model.app
+com.huotu.fanmore.model.inner
+com.huotu.fanmore.model.merchant
+com.huotu.fanmore.service
+com.huotu.fanmore.service.impl
