@@ -1,3 +1,7 @@
+com.alipay.config
+com.alipay.sign
+com.alipay.util
+com.alipay.util.httpClient
 com.huotu.common
 com.huotu.fanmore.api
 com.huotu.fanmore.api.common
@@ -12,6 +16,7 @@ com.huotu.fanmore.interceptor
 com.huotu.fanmore.model
 com.huotu.fanmore.model.admin
 com.huotu.fanmore.model.app
+com.huotu.fanmore.model.common
 com.huotu.fanmore.model.inner
 com.huotu.fanmore.model.merchant
 com.huotu.fanmore.service
