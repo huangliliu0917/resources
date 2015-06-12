@@ -1,0 +1,162 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1050px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0 {
+  position:absolute;
+  left:50px;
+  top:0px;
+  width:1000px;
+  height:50px;
+}
+#u0_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1000px;
+  height:50px;
+}
+#u1 {
+  position:absolute;
+  left:2px;
+  top:17px;
+  width:996px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u2 {
+  position:absolute;
+  left:948px;
+  top:15px;
+  width:82px;
+  height:15px;
+}
+#u2_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:82px;
+  height:15px;
+}
+#u3 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:82px;
+  word-wrap:break-word;
+}
+#u4 {
+  position:absolute;
+  left:70px;
+  top:8px;
+  width:97px;
+  height:29px;
+}
+#u4_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:97px;
+  height:29px;
+}
+#u5 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:97px;
+  white-space:nowrap;
+}
+#u6 {
+  position:absolute;
+  left:290px;
+  top:210px;
+  width:510px;
+  height:50px;
+}
+#u6_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:510px;
+  height:50px;
+}
+#u7 {
+  position:absolute;
+  left:2px;
+  top:18px;
+  width:506px;
+  word-wrap:break-word;
+}
+#u8 {
+  position:absolute;
+  left:290px;
+  top:90px;
+  width:510px;
+  height:50px;
+}
+#u8_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:510px;
+  height:50px;
+}
+#u9 {
+  position:absolute;
+  left:2px;
+  top:18px;
+  width:506px;
+  word-wrap:break-word;
+}
+#u10 {
+  position:absolute;
+  left:290px;
+  top:150px;
+  width:510px;
+  height:50px;
+}
+#u10_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:510px;
+  height:50px;
+}
+#u11 {
+  position:absolute;
+  left:2px;
+  top:18px;
+  width:506px;
+  word-wrap:break-word;
+}
+#u12 {
+  position:absolute;
+  left:300px;
+  top:280px;
+  width:500px;
+  height:50px;
+}
+#u12_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:500px;
+  height:50px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:center;
+}
