@@ -15,6 +15,7 @@ com.huotu.fanmore.exception
 com.huotu.fanmore.interceptor
 com.huotu.fanmore.model
 com.huotu.fanmore.model.admin
+com.huotu.fanmore.model.answer
 com.huotu.fanmore.model.app
 com.huotu.fanmore.model.common
 com.huotu.fanmore.model.inner
