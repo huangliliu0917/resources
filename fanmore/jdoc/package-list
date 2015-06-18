@@ -22,3 +22,8 @@ com.huotu.fanmore.model.inner
 com.huotu.fanmore.model.merchant
 com.huotu.fanmore.service
 com.huotu.fanmore.service.impl
+com.huotu.fanmore.test
+com.huotu.fanmore.test.app
+com.huotu.fanmore.test.base
+com.huotu.fanmore.test.service
+com.huotu.fanmore.test.web
