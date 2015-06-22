@@ -3,6 +3,10 @@ com.alipay.sign
 com.alipay.util
 com.alipay.util.httpClient
 com.huotu.common
+com.huotu.common.exceptions
+com.huotu.common.model
+com.huotu.common.service
+com.huotu.common.service.impl
 com.huotu.fanmore.api
 com.huotu.fanmore.api.common
 com.huotu.fanmore.boot
