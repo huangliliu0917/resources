@@ -11,6 +11,7 @@ com.huotu.fanmore.api
 com.huotu.fanmore.api.common
 com.huotu.fanmore.boot
 com.huotu.fanmore.bootconfig
+com.huotu.fanmore.concurrency
 com.huotu.fanmore.config
 com.huotu.fanmore.controller
 com.huotu.fanmore.controller.apiimp
