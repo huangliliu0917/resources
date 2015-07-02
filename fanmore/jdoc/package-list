@@ -7,6 +7,8 @@ com.huotu.common.exceptions
 com.huotu.common.model
 com.huotu.common.service
 com.huotu.common.service.impl
+com.huotu.fanmore.admin
+com.huotu.fanmore.admin.common
 com.huotu.fanmore.api
 com.huotu.fanmore.api.common
 com.huotu.fanmore.boot
@@ -14,6 +16,7 @@ com.huotu.fanmore.bootconfig
 com.huotu.fanmore.concurrency
 com.huotu.fanmore.config
 com.huotu.fanmore.controller
+com.huotu.fanmore.controller.adminimp
 com.huotu.fanmore.controller.apiimp
 com.huotu.fanmore.entity
 com.huotu.fanmore.exception
@@ -24,6 +27,7 @@ com.huotu.fanmore.model.answer
 com.huotu.fanmore.model.app
 com.huotu.fanmore.model.common
 com.huotu.fanmore.model.merchant
+com.huotu.fanmore.model.migrate
 com.huotu.fanmore.repository
 com.huotu.fanmore.service
 com.huotu.fanmore.service.impl
