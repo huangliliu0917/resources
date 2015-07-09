@@ -21,6 +21,7 @@ com.huotu.fanmore.controller.apiimp
 com.huotu.fanmore.entity
 com.huotu.fanmore.exception
 com.huotu.fanmore.interceptor
+com.huotu.fanmore.merchant.common
 com.huotu.fanmore.model
 com.huotu.fanmore.model.admin
 com.huotu.fanmore.model.answer
