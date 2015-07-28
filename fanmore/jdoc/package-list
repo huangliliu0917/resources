@@ -7,10 +7,12 @@ com.huotu.common.exceptions
 com.huotu.common.model
 com.huotu.common.service
 com.huotu.common.service.impl
+com.huotu.common.thirdparty
 com.huotu.fanmore.admin
 com.huotu.fanmore.admin.common
 com.huotu.fanmore.api
 com.huotu.fanmore.api.common
+com.huotu.fanmore.api.exception
 com.huotu.fanmore.boot
 com.huotu.fanmore.bootconfig
 com.huotu.fanmore.concurrency
