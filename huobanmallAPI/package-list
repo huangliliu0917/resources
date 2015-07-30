@@ -1,4 +1,5 @@
 com.huobanplus.erpprovicer.huobanmall.common
+com.huobanplus.erpprovicer.huobanmall.config
 com.huobanplus.erpprovicer.huobanmall.controller
 com.huobanplus.erpprovicer.huobanmall.service
 com.huobanplus.erpprovicer.huobanmall.service.impl
