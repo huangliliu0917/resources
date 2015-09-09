@@ -31,6 +31,7 @@ com.huotu.fanmore.model.app
 com.huotu.fanmore.model.common
 com.huotu.fanmore.model.merchant
 com.huotu.fanmore.model.migrate
+com.huotu.fanmore.model.ruiyi
 com.huotu.fanmore.repository
 com.huotu.fanmore.service
 com.huotu.fanmore.service.impl
