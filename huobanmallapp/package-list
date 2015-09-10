@@ -1,3 +1,8 @@
+com.huotu.common
+com.huotu.common.exceptions
+com.huotu.common.model
+com.huotu.common.service
+com.huotu.common.service.impl
 com.huotu.huobanmall.api
 com.huotu.huobanmall.api.common
 com.huotu.huobanmall.boot
@@ -5,4 +10,14 @@ com.huotu.huobanmall.bootconfig
 com.huotu.huobanmall.common.model
 com.huotu.huobanmall.config
 com.huotu.huobanmall.controller
+com.huotu.huobanmall.entity
+com.huotu.huobanmall.entity.pk
+com.huotu.huobanmall.interceptor
+com.huotu.huobanmall.model
 com.huotu.huobanmall.model.app
+com.huotu.huobanmall.repository
+com.huotu.huobanmall.service
+com.huotu.huobanmall.service.impl
+com.huotu.huobanmall.test
+com.huotu.huobanmall.test.app
+com.huotu.huobanmall.test.base
