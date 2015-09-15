@@ -21,4 +21,6 @@ com.huotu.huobanmall.repository
 com.huotu.huobanmall.service
 com.huotu.huobanmall.service.impl
 com.huotu.huobanmall.test
+com.huotu.huobanmall.test.aop
 com.huotu.huobanmall.test.base
+com.huotu.huobanmall.test.boot
