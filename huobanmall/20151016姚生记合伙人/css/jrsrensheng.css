@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hhr-bg{height:100%; width:100%;color:#333; background-color:#f1f1f1 }
+.hhr-ct{text-align:center; width:100%; margin:0 auto; padding:1% 0px 1% 0px; background-color:#fff;}
+.hhr-ct.og{padding:0px;}
+
+.hhr-title{font-size:14px; padding:20px 0px 0px 0px;}
+.hhr-number{ font-size:50px;padding:0px 0px 20px 0px; color:#FF2700}
+.hhr-ct.og{background-color:#FF2700;color:#fff}
+
+.hhr-ct.og .hhr-title{padding:10px 0px 0px 0px;}
+.hhr-ct.og .hhr-number{color:#fff;padding:10px}
+.hhr-list{background-color:#fff;}
+.hhr-list div{ text-align:left; clear:both; padding:15px 10px; color:#666}
+.hhr-list div .dds{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display:inline-block;font-size:20px; color:#FF2700; float:right; text-align:right; margin-right:5px;}
+.hhr-help{padding:2px 4px; font-size:14px; background-color:#FF2700; color:#fff}
+.hhr-help span{ padding:8px}
+.hhr-gg{text-align:center; width:100%; margin:0 auto; padding:10px 0px 0px 0px;font-size:14px}
+.hhr-mx-b{text-align:center;font-size:16px; margin:20px; padding-bottom:30px;}
+.hhr-mx-b .button{width:50%; background-color:#fff; height:45px; margin:0px 0px 10px 0px; float:left; border:1px solid #ddd;}
+.hhr-juzi{ color:#111}
+.hhr-huizi{font-size:12px; color:#BCBCBC; margin-top:4px;}
+.jrlist{border-top:1px solid #EAEAEA;margin-left:5px;}
+.jrlist:first-child{ border:0px;}
+.hhr-list .jrlist .dds{ font-size:20px}
+.hhr-list .jrlist .dds.off{ color:#00CC43}
+.hhr-huizi.off{ color:#111}
+
+
+.hhr-mx-c{text-align:center;font-size:16px;  }
+.hhr-mx-c .button{width:100%; border-radius:8px ; background-color:rgba(255,255,255,0.9); padding:5% 20%; margin:0px 0px 5% 0px; float:left; border:1px solid #ddd; font-size:25px;}
+
+
+
+
+/*排序*/
+.custom-paixus-A { 
+background: #fff;
+border-bottom: 1px solid #ddd;
+height: 44px;
+}
+.custom-paixus{
+display: box;
+display: -ms-box;
+display: -webkit-box;
+display: flex;
+display: -ms-flexbox;
+display: -webkit-flex;
+}
+.custom-paixus a {
+font-size: 14px;
+width: 200px;  
+height: 43px;
+line-height: 43px;
+padding-bottom: 3px;
+text-align: center;
+text-overflow:ellipsis;
+white-space:nowrap; 
+overflow:hidden;
+display:inline-block;
+ 
+}.custom-paixus a,.custom-paixus a:visited {
+text-decoration: none;
+color: #333;
+}
+.custom-paixus a{
+display: block;
+flex: 1;
+-ms-flex: 1;
+-webkit-flex: 1;
+box-flex: 1;
+-ms-box-flex: 1;
+-webkit-box-flex: 1;
+}.custom-paixus .on {
+color: #e33b3d;
+padding-bottom: 0;
+border-bottom: 3px solid #FF2700;
+z-index: 1;
+}
+ 
+ 
+/*排序*/
+
+ 
