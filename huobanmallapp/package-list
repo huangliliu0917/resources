@@ -14,6 +14,7 @@ com.huotu.huobanmall.config
 com.huotu.huobanmall.controller
 com.huotu.huobanmall.entity
 com.huotu.huobanmall.entity.pk
+com.huotu.huobanmall.exception
 com.huotu.huobanmall.interceptor
 com.huotu.huobanmall.model
 com.huotu.huobanmall.model.app
