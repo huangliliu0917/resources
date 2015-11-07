@@ -2776,3 +2776,25 @@
   width:271px;
   word-wrap:break-word;
 }
+#u219 {
+  position:absolute;
+  left:42px;
+  top:2510px;
+  width:32px;
+  height:16px;
+}
+#u219_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:32px;
+  height:16px;
+}
+#u220 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:32px;
+  visibility:hidden;
+  white-space:nowrap;
+}
