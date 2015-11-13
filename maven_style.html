@@ -1,0 +1,349 @@
+<html><head><title>火图Maven代码风格和编码规范</title><meta charset="UTF-8"><link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic|Roboto:400,700,700italic,400italic"><style>/*
+ * Copyright 2014 Quip
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may
+ * not use this file except in compliance with the License. You may obtain
+ * a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ */
+
+body {
+    font-size: 15px;
+    color: #333;
+    background: #fff;
+    padding: 60px 95px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    -moz-font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+}
+
+/* Headings */
+h1, h2, h3, th {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 1.25em;
+    margin-bottom: 0.75em;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 42px;
+}
+
+h1:first-child {
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+/* Body text */
+body, p, ul, ol, td {
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+code, pre {
+    font-family: Consolas, "Liberation Mono", Menlo, "Courier Prime Web", Courier, monospace;
+    background: #f3f3f3;
+}
+
+code {
+    padding: 1px;
+    margin: 0 -1px;
+    border-radius: 3px;
+}
+
+pre {
+    display: block;
+    line-height: 20px;
+    text-shadow: 0 1px white;
+    padding: 5px 5px 5px 30px;
+    white-space: nowrap;
+    position: relative;
+    margin: 1em 0;
+}
+
+pre:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    border-left: solid 1px #dadada;
+}
+
+/* Lists */
+div[data-section-style="5"],
+div[data-section-style="6"],
+div[data-section-style="7"] {
+    margin: 12px 0;
+}
+
+ul {
+    padding: 0 0 0 40px;
+}
+
+ul li {
+    margin-bottom: 0.4em;
+}
+
+/* Bulleted list */
+div[data-section-style="5"] ul {
+    list-style-type: disc;
+}
+div[data-section-style="5"] ul ul {
+    list-style-type: circle;
+}
+div[data-section-style="5"] ul ul ul {
+    list-style-type: square;
+}
+div[data-section-style="5"] ul ul ul ul {
+    list-style-type: disc;
+}
+div[data-section-style="5"] ul ul ul ul ul {
+    list-style-type: circle;
+}
+div[data-section-style="5"] ul ul ul ul ul ul {
+    list-style-type: square;
+}
+
+/* Numbered list */
+div[data-section-style="6"] ul {
+    list-style-type: decimal;
+}
+div[data-section-style="6"] ul ul {
+    list-style-type: lower-alpha;
+}
+div[data-section-style="6"] ul ul ul {
+    list-style-type: lower-roman;
+}
+div[data-section-style="6"] ul ul ul ul {
+    list-style-type: decimal;
+}
+div[data-section-style="6"] ul ul ul ul ul {
+    list-style-type: lower-alpha;
+}
+div[data-section-style="6"] ul ul ul ul ul ul {
+    list-style-type: lower-roman;
+}
+
+/* Checklist */
+div[data-section-style="7"] ul {
+    list-style-type: none;
+}
+
+div[data-section-style="7"] ul li:before {
+    content: "\2610";
+    position: absolute;
+    display: inline;
+    margin-right: 1.2em;
+    margin-left: -1.2em;
+}
+
+div[data-section-style="7"] ul li.parent:before {
+    content: "";
+}
+
+div[data-section-style="7"] ul li.parent {
+    font-weight: bold;
+}
+
+div[data-section-style="7"] ul li.checked {
+    text-decoration: line-through;
+}
+
+div[data-section-style="7"] ul li.checked:before {
+    content: "\2611";
+    text-decoration: none;
+}
+
+/* Tables */
+div[data-section-style="8"] {
+    margin: 12px 0;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: separate;
+    border: solid 1px #7c7c7c;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+    table-layout: fixed;
+    position: relative;
+}
+
+table th, table td {
+    padding: 2px 2px 0;
+    min-width: 1.5em;
+    word-wrap: break-word;
+}
+
+table th {
+    border-bottom: 1px solid #ccc;
+    background: #f0f0f0;
+    font-weight: bold;
+    vertical-align: bottom;
+    color: #3a4449;
+    text-align: center;
+}
+
+table td {
+    padding-top: 0;
+    border-left: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    vertical-align: top;
+}
+
+table td:first-child {
+    border-left: hidden;
+}
+
+table tr:first-child td {
+    border-top: hidden;
+}
+
+/* Images */
+div[data-section-style="11"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div[data-section-style="11"][data-section-float="0"] {
+    clear: both;
+    text-align: center;
+}
+
+div[data-section-style="11"][data-section-float="1"] {
+    float: left;
+    clear: left;
+    margin-right: 20px;
+}
+
+div[data-section-style="11"][data-section-float="2"] {
+    float: right;
+    clear: right;
+    margin-left: 20px;
+}
+
+div[data-section-style="11"] img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+</style></head><body><h1 id='AJaACANWzIE'>火图Maven代码风格和编码规范</h1>
+
+本文档描述一个开发者应该如何规范自己的编辑产物；统一，强健的规范可以极大的提高代码的可维护性，可读性和可管理性。<br/>
+
+<h2 id='AJaACAqm3JC'>通用规则</h2>
+
+所有文件(源码,xml和其他编辑文件)都应该遵循的规则:<br/>
+
+<div data-section-style='5'><ul id='AJaACA2sWDn'><li id='AJaACAPOKPf' class='' value='1'>版权:头部应当添加版权声明注释块；
+
+<br/></li></ul></div><div data-section-style='7'><ul id='AJaACAZCDXH'><li id='AJaACAQEvhi' class='' value='1'>版权所有:杭州火图科技有限公司<br>地址:浙江省杭州市滨江区西兴街道阡陌路智慧E谷B幢4楼<br><br>(c) Copyright Hangzhou Hot Technology Co., Ltd.<br>Floor 4,Block B,Wisdom E Valley,Qianmo Road,Binjiang District<br>2013-2014. All rights reserved.
+
+<br/></li></ul></div><div data-section-style='5'><ul id='AJaACAdxFlg'><li id='AJaACAq3jg5' class='' value='1'>多余空字符:应当被移除，Eclipse用户应当安装 <a href="http://andrei.gmxhome.de/anyedit/">AnyEdit Eclipse Plugin</a>。
+
+<br/></li></ul></div><div data-section-style='5'><ul id='AJaACA1nU0y'><li id='AJaACAbtTkc' class='' value='1'>缩进:<b>绝对</b>不使用tab键
+
+<br/></li><li id='AJaACARbq5k' class=''>分行:一行最多120字符
+
+<br/></li></ul></div>注意：下面的风格详情可能会覆盖通用规则。<br/>
+
+<h2 id='AJaACAM2oCi'>Java</h2>
+
+<h3 id='AJaACA9mJSl'>Java代码风格</h3>
+
+maven项目主要是Java项目，所以maven规则也主要应用于Java。<br/>
+
+<div data-section-style='5'><ul id='AJaACAGSMCs'><li id='AJaACAhhsbC' class='' value='1'>空格:在参数中间，或者控制关键字之后应当添加一个空格；比如用<code><u>if ( foo )</u> 代替 <u>if(foo)</u>，用<code><u>myFunc( foo, bar, baz )</u>代替<code><u>myFunc(foo,bar,baz)</u>。方法名后不应该存在空格，比如<code><u>void myMethod(), myMethod( "foo" )</u>。</code></code></code></code>
+
+<br/></li><li id='AJaACAEUSSj' class=''>缩进:使用4个空格缩进，<b>绝对</b>不用tab键
+
+<br/></li><li id='AJaACA63Faa' class=''>代码块:总是在新行中用大括号包裹
+
+<br/></li><li id='AJaACAAvzY0' class=''>分行:一行最多120字符，无论是代码还是注释
+
+<br/></li></ul></div>几个主流IDE的代码风格文件，强烈建议采纳。<br/>
+
+<h3 id='AJaACAraSvM'>IntelliJ IDEA 4.5+</h3>
+
+下载 <a href="http://maven.apache.org/developers/maven-idea-codestyle.xml">maven-idea-codestyle.xml</a>到~/Library/Preferences/IntelliJIdea14/codestyles然后重启IDE,在首选项-Editor-Code Style中选择maven shcema。<br/>
+
+<i>windows中路径为~\.IntelliJIdea14\config\codestyles\</i><br/>
+
+<h3 id='AJaACAxKXhp'>Eclipse 3.2+</h3>
+
+下载<a href="http://maven.apache.org/developers/maven-eclipse-codestyle.xml">maven-eclipse-codestyle.xml</a>然后在window-Preferences配置java-code style-Code Formatter 中导入并应用该xml文件。<br/>
+
+<h3 id='AJaACAjusXK'>Java 编码规范</h3>
+
+请参考<a href="http://hottech.gitcafe.io/resources/Java%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%830.3.docx">Java编码规范</a><br/>
+
+<h2 id='AJaACAZOHhw'>XML</h2>
+
+<h3 id='AJaACA6rBCb'>XML代码风格</h3>
+
+<div data-section-style='5'><ul id='AJaACAiVVqI'><li id='AJaACABtEha' class='' value='1'>缩进:使用2个空格缩进
+
+<br/></li><li id='AJaACA6xg45' class=''>换行:一个复杂XML数据需要单独分行，简单到一行描述而不可能产生歧义的XML数据无需分行；XML数据类型改变时，需要用一个空行分隔。一个XML示范:
+
+<br/></li><li id='AJaACATJOvU' class=''>&lt;aTag&gt;<br>  &lt;simpleType&gt;This is a simple type&lt;/simpleType&gt;<br> <br>  &lt;complexType&gt;<br>    &lt;simpleType&gt;This is a complex type&lt;/simpleType&gt;<br>  &lt;/complexType&gt;<br>&lt;/aTag&gt;
+
+<br/></li></ul></div>单行注释或者注释块都是允许的，比如<br/>
+
+<pre id='AJaACAIT4sj'> &lt;!-- Simple XML documentation                                               --&gt;</pre>
+
+或者<br/>
+
+<pre id='AJaACA7RZt6'>&lt;!-- ====================================================================== --&gt;<br>&lt;!-- Block documentation                                                    --&gt;<br>&lt;!-- ====================================================================== --&gt;</pre>
+
+<h3 id='AJaACALb1Ga'>通用XML编码规范</h3>
+
+<i>未完待续</i><br/>
+
+<h3 id='AJaACA6BXyn'>POM编码规范</h3>
+
+POM中各项定义强烈建议按照以下排序编写。<br/>
+
+<pre id='AJaACAyXVVd'>&lt;project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;<br>  &lt;modelVersion/&gt;<br> <br>  &lt;parent/&gt;<br> <br>  &lt;groupId/&gt;<br>  &lt;artifactId/&gt;<br>  &lt;version/&gt;<br>  &lt;packaging/&gt;<br> <br>  &lt;name/&gt;<br>  &lt;description/&gt;<br>  &lt;url/&gt;<br>  &lt;inceptionYear/&gt;<br>  &lt;organization/&gt;<br>  &lt;licenses/&gt;<br> <br>  &lt;developers/&gt;<br>  &lt;contributors/&gt;<br> <br>  &lt;mailingLists/&gt;<br> <br>  &lt;prerequisites/&gt;<br> <br>  &lt;modules/&gt;<br> <br>  &lt;scm/&gt;<br>  &lt;issueManagement/&gt;<br>  &lt;ciManagement/&gt;<br>  &lt;distributionManagement/&gt;<br> <br>  &lt;properties/&gt;<br> <br>  &lt;dependencyManagement/&gt;<br>  &lt;dependencies/&gt;<br> <br>  &lt;repositories/&gt;<br>  &lt;pluginRepositories/&gt;<br> <br>  &lt;build/&gt;<br> <br>  &lt;reporting/&gt;<br> <br>  &lt;profiles/&gt;<br>&lt;/project&gt;</pre>
+
+几点说明:<br/>
+
+<div data-section-style='5'><ul id='AJaACANTNU1'><li id='AJaACAMuS65' class='' value='1'>&lt;project&gt;元素肯定在新行开启
+
+<br/></li><li id='AJaACA11HM1' class=''>为了提高可读性使用空行归档了不同类型的定义
+
+<br/></li><li id='AJaACA6roTJ' class=''>没有明文规定在dependencyManagement和dependencies中各个dependency的排序要求，但强烈建议按照用途区分排序（如同我们对整个POM所做的一样）。
+
+<br/></li></ul></div><h1 id='AJaACAnzuLI'>将来</h1>
+
+Gradle作为Maven补充者和挑战者以它简练清爽的风格正在逐渐获得开发者的青睐，公司也有部分项目采用Gradle作为构建技术，相信很快我们就可以获得Gradle的代码风格标准了。<br/>
+
+<br/>
+
+</body></html>
