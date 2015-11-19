@@ -36,6 +36,7 @@ com.huotu.huobanplus.model.jpa
 com.huotu.huobanplus.model.type
 com.huotu.huobanplus.sdk.base
 com.huotu.huobanplus.sdk.base.http
+com.huotu.huobanplus.sdk.base.json
 com.huotu.huobanplus.sdk.base.model
 com.huotu.huobanplus.sdk.base.support
 com.huotu.huobanplus.sdk.common
@@ -93,6 +94,7 @@ com.huotu.huobanplus.web.config
 com.huotu.huobanplus.web.controller
 com.huotu.huobanplus.web.interceptor
 com.huotu.huobanplus.web.mvc
+com.huotu.huobanplus.web.pages
 com.huotu.huobanplus.web.service
 com.huotu.huobanplus.web.service.impl
 com.huotu.iqiyi.sdk
