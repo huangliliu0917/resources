@@ -581,3 +581,24 @@
   left:-3px;
   top:-2px;
 }
+#u51 {
+  position:absolute;
+  left:212px;
+  top:585px;
+  width:100px;
+  height:25px;
+}
+#u51_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100px;
+  height:25px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:center;
+}
