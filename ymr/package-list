@@ -16,7 +16,10 @@ com.huotu.ymr.interceptor
 com.huotu.ymr.mallentity
 com.huotu.ymr.mallrepository
 com.huotu.ymr.model
-com.huotu.ymr.model.SearchCondition
+com.huotu.ymr.model.backend.article
+com.huotu.ymr.model.backend.crowdFunding
+com.huotu.ymr.model.backend.share
+com.huotu.ymr.model.searchCondition
 com.huotu.ymr.repository
 com.huotu.ymr.service
 com.huotu.ymr.service.impl
