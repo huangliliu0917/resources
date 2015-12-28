@@ -921,3 +921,25 @@
 #u74_input:disabled {
   color:grayText;
 }
+#u75 {
+  position:absolute;
+  left:40px;
+  top:1110px;
+  width:32px;
+  height:16px;
+}
+#u75_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:32px;
+  height:16px;
+}
+#u76 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:32px;
+  visibility:hidden;
+  white-space:nowrap;
+}
