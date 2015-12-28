@@ -63,6 +63,7 @@ com.huotu.huobanplus.sis.model.sisEnum
 com.huotu.huobanplus.sis.repository
 com.huotu.huobanplus.sis.service
 com.huotu.huobanplus.sis.service.impl
+com.huotu.huobanplus.sis.thymeleaf
 com.huotu.huobanplus.smartui
 com.huotu.huobanplus.smartui.controller
 com.huotu.huobanplus.smartui.entity
