@@ -8,6 +8,7 @@ com.huotu.ymr.base
 com.huotu.ymr.boot
 com.huotu.ymr.common
 com.huotu.ymr.common.thirdparty
+com.huotu.ymr.concurrency
 com.huotu.ymr.controller
 com.huotu.ymr.controller.web
 com.huotu.ymr.entity
