@@ -7,10 +7,16 @@ com.huotu.duobao.api.base.config
 com.huotu.duobao.api.controller
 com.huotu.duobao.model.api
 com.huotu.duobao.model.common
+com.huotu.duobao.model.common.thirdparty
+com.huotu.duobao.model.common.thirdparty.alipay.config
+com.huotu.duobao.model.common.thirdparty.alipay.sign
+com.huotu.duobao.model.common.thirdparty.alipay.util
+com.huotu.duobao.model.common.thirdparty.alipay.util.httpClient
 com.huotu.duobao.model.entity
 com.huotu.duobao.model.exceptions
 com.huotu.duobao.model.web
 com.huotu.duobao.service
+com.huotu.duobao.service.jdbc
 com.huotu.duobao.service.repository
 com.huotu.duobao.service.service
 com.huotu.duobao.service.service.impl
