@@ -13,9 +13,11 @@ com.huotu.duobao.model.common.thirdparty.alipay.sign
 com.huotu.duobao.model.common.thirdparty.alipay.util
 com.huotu.duobao.model.common.thirdparty.alipay.util.httpClient
 com.huotu.duobao.model.entity
+com.huotu.duobao.model.entity.pk
 com.huotu.duobao.model.exceptions
 com.huotu.duobao.model.web
 com.huotu.duobao.service
+com.huotu.duobao.service.cache
 com.huotu.duobao.service.jdbc
 com.huotu.duobao.service.repository
 com.huotu.duobao.service.service
