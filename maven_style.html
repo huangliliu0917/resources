@@ -64,6 +64,33 @@ body, p, ul, ol, td {
     line-height: 20px;
 }
 
+blockquote, q {
+    display: block;
+    margin: 1em 0;
+    font-style: italic;
+}
+
+blockquote a, q a {
+    text-decoration: underline;
+}
+
+blockquote {
+    padding-left: 10px;
+    border-left: 4px solid #a6a6a6;
+}
+
+q {
+    color: #a6a6a6;
+    line-height: 40px;
+    font-size: 24px;
+    text-align: center;
+    quotes: none;
+}
+
+q a {
+    color: #a6a6a6;
+}
+
 code, pre {
     font-family: Consolas, "Liberation Mono", Menlo, "Courier Prime Web", Courier, monospace;
     background: #f3f3f3;
@@ -215,6 +242,26 @@ table td {
     vertical-align: top;
 }
 
+table td.bold {
+    font-weight: bold;
+}
+
+table td.italic {
+    font-style: italic;
+}
+
+table td.underline {
+    text-decoration: underline;
+}
+
+table td.strikethrough {
+    text-decoration: line-through;
+}
+
+table td.underline.strikethrough {
+    text-decoration: underline line-through;
+}
+
 table td:first-child {
     border-left: hidden;
 }
@@ -253,6 +300,11 @@ div[data-section-style="11"] img {
     max-width: 100%;
     height: auto;
     margin: auto;
+}
+
+hr {
+    width: 70px;
+    margin: 20px auto;
 }
 </style></head><body><h1 id='AJaACANWzIE'>火图Maven代码风格和编码规范</h1>
 
@@ -295,6 +347,8 @@ maven项目主要是Java项目，所以maven规则也主要应用于Java。<br/>
 下载 <a href="http://maven.apache.org/developers/maven-idea-codestyle.xml">maven-idea-codestyle.xml</a>到~/Library/Preferences/IntelliJIdea14/codestyles然后重启IDE,在首选项-Editor-Code Style中选择maven shcema。<br/>
 
 <i>windows中路径为~\.IntelliJIdea14\config\codestyles\</i><br/>
+
+<div data-section-style='11' data-section-float='2' style='max-width:43%'><img src='https://quip.com/blob/AJaAAAq604a/FCoWm0zLQe8XvishLrs8oA?a=EhQy74faR8tjyT1txP79bRhfl7lAWP4UvpuJbiynAIYa' id='AJaACAQZZGP' alt='' width='346' height='342'></img></div><pre id='AJaACA0rIO4'>更好的方式，在提交代码之前让IDEA帮助你处理一切<br></pre>
 
 <h3 id='AJaACAxKXhp'>Eclipse 3.2+</h3>
 
