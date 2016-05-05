@@ -5,6 +5,7 @@ com.huotu.duobao.api.api
 com.huotu.duobao.api.base
 com.huotu.duobao.api.base.config
 com.huotu.duobao.api.controller
+com.huotu.duobao.api.service
 com.huotu.duobao.model.api
 com.huotu.duobao.model.common
 com.huotu.duobao.model.common.thirdparty
