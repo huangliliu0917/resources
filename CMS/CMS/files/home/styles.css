@@ -506,3 +506,25 @@
   width:19px;
   white-space:nowrap;
 }
+#u46 {
+  position:absolute;
+  left:30px;
+  top:463px;
+  width:120px;
+  height:40px;
+  font-size:12px;
+}
+#u46_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:120px;
+  height:40px;
+}
+#u47 {
+  position:absolute;
+  left:2px;
+  top:13px;
+  width:116px;
+  word-wrap:break-word;
+}
