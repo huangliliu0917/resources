@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<title>火图静态资源库</title>
+	<link rel="stylesheet" href="http://resali.huobanplus.com/cdn/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://resali.huobanplus.com/cdn/hover/2.0.2/css/hover-min.css">
+	<link rel="stylesheet" href="style/simptip.min.css">
+	<link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+	<header>火图静态资源库<a href="https://github.com/huotuinc/resources/tree/9cc2c916d5cf2009a253464725909b74ab796946/CDN/Changelog.md" target="_blank">更新日志</a><i></i></header>
+	<section id="title">
+		<h1>库名称</h1>
+		<h1>版本</h1>
+		<h1>地址</h1>
+	</section>
+    <script id="lists" type="text/html">
+        {{each libs as value}}
+        <section>
+            <h2><a href="{{value.url}}" rel="nofollow" target="_blank">{{value.name}}</a>{{ if value.jquery}}<s></s>{{/if}}</h2>
+            <div class="right">
+                {{each value.version as val}}
+                <div class="version">{{val}}</div>
+                <ul class="url">
+                    {{each value.resource as v}}
+                    <li>
+                        <span>{{root + value.name + '/' + val + '/' + v}}</span>
+                        <div class="simptip-position-bottom simptip-movable" data-tooltip="Copy to clipboard" data-copied-hint="Copied!"><button class="hvr-glow" type="button"><i class="fa fa-clipboard"></i></button></div>
+                    </li>
+                    {{/each}}
+                </ul>
+                {{/each}}
+            </div>
+        </section>
+        {{/each}}
+    </script>
+	<footer id="footer">
+		©2016<a href="http://resources.chinaswt.cn/" target="_blank">火图资源</a>.
+	</footer>
+</body>
+<script src="http://resali.huobanplus.com/cdn/jquery/3.0.0/jquery.min.js"></script>
+<script src="http://resali.huobanplus.com/cdn/clipboard/1.5.12/clipboard.min.js"></script>
+<script src="scripts/template.js"></script>
+<script>
+    $('body').on('click', '.hvr-glow', function () {
+        var parent = $(this).parent();
+        var copied = parent.attr('data-copied-hint');
+        parent.attr('data-tooltip', copied);
+    });
+    $('body').on('mouseenter', '.url li', function () {
+        if ( $(this).children('div')) $(this).children('div').stop().fadeIn();
+    });
+    $('body').on('mouseleave', '.url li', function () {
+        if ( $(this).children('div')) $(this).children('div').stop().fadeOut();
+    });
+	new Clipboard('.hvr-glow', {
+		target: function(trigger) {
+			return trigger.parentElement.previousElementSibling;
+		}
+	});
+    var root, version;
+    $.getJSON('resource.json', function (data) {
+        root = data.root;
+        version = data.release;
+        $('header').find('i').text(version);
+        var html = template('lists' ,data);
+        $('#title').after(html);
+    });
+</script>
+</html>
