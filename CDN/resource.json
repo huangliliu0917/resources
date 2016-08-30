@@ -274,7 +274,7 @@
         "plugins/dataTables/jquery.dataTables.js",
         "plugins/dataTables/dataTables.bootstrap.js",
         "plugins/datetimepick/daterangepicker.js",
-        "plugins/datetimepick/moment.min.js",
+        "plugins/datetimepick/moment.js",
         "plugins/diff_match_patch/diff_match_patch.js",
         "plugins/dropzone/dropzone.js",
         "plugins/easypiechart/jquery.easypiechart.js",
