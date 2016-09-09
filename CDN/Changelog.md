@@ -1,3 +1,6 @@
+#### #Update 2016-09-09
+更新部分 stylesheets 和 scripts，添加对应的版本号
+
 #### #Update 2016-09-08
 jquery-weui 紧急更新到 0.8.2 所有使用 0.8.1 替换，严重BUG
 
