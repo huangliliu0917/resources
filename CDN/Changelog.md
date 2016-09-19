@@ -1,3 +1,6 @@
+#### #Update 2016-09-16
+修改美化 scroll 插件为 nicescroll -> 不需要引用额外的样式文件，减少HTTP请求次数
+
 #### #Update 2016-09-09
 更新部分 stylesheets 和 scripts，添加对应的版本号
 
