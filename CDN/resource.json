@@ -309,7 +309,7 @@
         "plugins/prettyfile/bootstrap-prettyfile.js",
         "plugins/rickshaw/rickshaw.min.js",
         "plugins/rickshaw/vendor/d3.v3.js",
-        "plugins/SearchableSelect/jquery.searchableSelect-1.0.0.js",
+        "plugins/SearchableSelect/jquery.searchableSelect-1.0.1.js",
         "plugins/simditor/simditor.js",
         "plugins/simditor/hotkeys.js",
         "plugins/simditor/module.js",
