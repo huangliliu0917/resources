@@ -1,0 +1,12 @@
+com.huotu.huobanplus.search
+com.huotu.huobanplus.search.boot
+com.huotu.huobanplus.search.controller
+com.huotu.huobanplus.search.controller.impl
+com.huotu.huobanplus.search.model
+com.huotu.huobanplus.search.model.enums
+com.huotu.huobanplus.search.model.solr
+com.huotu.huobanplus.search.model.view
+com.huotu.huobanplus.search.repository.solr
+com.huotu.huobanplus.search.service
+com.huotu.huobanplus.search.service.impl
+com.huotu.huobanplus.search.utils
