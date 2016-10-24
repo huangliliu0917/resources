@@ -740,21 +740,21 @@
 #u64 {
   position:absolute;
   left:390px;
-  top:309px;
+  top:200px;
   width:1030px;
-  height:60px;
+  height:169px;
 }
 #u64_img {
   position:absolute;
   left:0px;
   top:0px;
   width:1030px;
-  height:60px;
+  height:169px;
 }
 #u65 {
   position:absolute;
   left:2px;
-  top:22px;
+  top:76px;
   width:1026px;
   visibility:hidden;
   word-wrap:break-word;

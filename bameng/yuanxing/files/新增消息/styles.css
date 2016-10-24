@@ -773,3 +773,25 @@
   width:58px;
   word-wrap:break-word;
 }
+#u66 {
+  position:absolute;
+  left:360px;
+  top:212px;
+  width:1030px;
+  height:100px;
+}
+#u66_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1030px;
+  height:100px;
+}
+#u67 {
+  position:absolute;
+  left:2px;
+  top:42px;
+  width:1026px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
