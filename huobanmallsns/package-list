@@ -1,5 +1,4 @@
 com.huotu.huobanplus.sns.boot
-com.huotu.huobanplus.sns.controller
 com.huotu.huobanplus.sns.controller.admin
 com.huotu.huobanplus.sns.controller.app
 com.huotu.huobanplus.sns.controller.back
