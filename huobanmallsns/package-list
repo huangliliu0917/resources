@@ -1,3 +1,4 @@
+com.huotu.huobanplus.sns.annotation
 com.huotu.huobanplus.sns.boot
 com.huotu.huobanplus.sns.controller.admin
 com.huotu.huobanplus.sns.controller.app
@@ -6,9 +7,14 @@ com.huotu.huobanplus.sns.controller.impl.app
 com.huotu.huobanplus.sns.entity
 com.huotu.huobanplus.sns.entity.support
 com.huotu.huobanplus.sns.exception
+com.huotu.huobanplus.sns.mallentity
+com.huotu.huobanplus.sns.mallrepository
+com.huotu.huobanplus.sns.mallservice
+com.huotu.huobanplus.sns.mallservice.impl
 com.huotu.huobanplus.sns.model
 com.huotu.huobanplus.sns.model.admin
 com.huotu.huobanplus.sns.model.common
+com.huotu.huobanplus.sns.mvc
 com.huotu.huobanplus.sns.repository
 com.huotu.huobanplus.sns.service
 com.huotu.huobanplus.sns.service.impl
