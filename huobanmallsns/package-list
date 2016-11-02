@@ -1,4 +1,5 @@
 com.huotu.huobanplus.sns.annotation
+com.huotu.huobanplus.sns.base
 com.huotu.huobanplus.sns.boot
 com.huotu.huobanplus.sns.controller.admin
 com.huotu.huobanplus.sns.controller.app
