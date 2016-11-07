@@ -1,10 +1,11 @@
+com.huotu.huobanplus.sns
 com.huotu.huobanplus.sns.annotation
 com.huotu.huobanplus.sns.base
 com.huotu.huobanplus.sns.boot
 com.huotu.huobanplus.sns.controller.admin
 com.huotu.huobanplus.sns.controller.app
-com.huotu.huobanplus.sns.controller.back
 com.huotu.huobanplus.sns.controller.impl.app
+com.huotu.huobanplus.sns.converter
 com.huotu.huobanplus.sns.entity
 com.huotu.huobanplus.sns.entity.support
 com.huotu.huobanplus.sns.exception
