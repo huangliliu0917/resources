@@ -1,6 +1,6 @@
 {
   "root": "http://resali.huobanplus.com/cdn/",
-  "release": "2016.09.16",
+  "release": "2016.11.16",
   "libs": [
     {
       "name": "bootstrap",
@@ -24,7 +24,7 @@
     {
       "name": "clipboard",
       "url": "https://clipboardjs.com/",
-      "version": ["1.5.12"],
+      "version": ["1.5.15"],
       "resource": [
         "clipboard.min.js"
       ]
@@ -35,6 +35,17 @@
       "version": ["1.7.1"],
       "resource": [
         "countUp.min.js"
+      ]
+    },
+    {
+      "name": "fine-uploader",
+      "url": "http://fineuploader.com/",
+      "version": ["5.11.9"],
+      "resource": [
+        "fine-uploader.min.css",
+        "fine-uploader-new.min.css",
+        "fine-uploader.min.js",
+        "jquery.fine-uploader.min.js"
       ]
     },
     {
@@ -57,7 +68,7 @@
     {
       "name": "jquery",
       "url": "http://jquery.com/",
-      "version": ["1.9.1","1.12.4","2.2.4","3.1.0"],
+      "version": ["1.9.1","1.12.4","2.2.4","3.1.1"],
       "resource": [
         "jquery.min.js"
       ]
@@ -132,7 +143,7 @@
       "name": "jquery-validation",
       "jquery": true,
       "url": "https://jqueryvalidation.org/",
-      "version": ["1.15.0"],
+      "version": ["1.15.1"],
       "resource": [
         "jquery.validate.min.js",
         "additional-methods.min.js",
@@ -156,7 +167,7 @@
       "name": "layer",
       "jquery": true,
       "url": "http://layer.layui.com/",
-      "version": ["2.4"],
+      "version": ["3.0.1"],
       "resource": [
         "layer.js"
       ]
@@ -165,7 +176,7 @@
       "name": "swiper",
       "jquery": true,
       "url": "http://idangero.us/swiper/",
-      "version": ["3.3.1"],
+      "version": ["3.4.0"],
       "resource": [
         "swiper.min.js",
         "swiper.jquery.min.js",

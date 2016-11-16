@@ -1,3 +1,31 @@
+#### #Update 2016-11-16
+
+###### clipboard
+更新至 1.5.15
+
+###### fine-uploader
+更新至 5.11.9
+
+###### font-awesome
+更新至 4.7.0
+
+###### jQuery
+更新至: 3.1.1
+
+###### jquery-ui
+更新至: 1.12.1
+
+###### jquery-validation
+更新至: 1.15.1
+
+###### layer
+更新至: 3.0.1
+
+[layer 3.x 更新说明](http://fly.layui.com/jie/4827.html)
+
+###### swiper
+更新至: 3.4.0
+
 #### #Update 2016-09-16
 修改美化 scroll 插件为 nicescroll -> 不需要引用额外的样式文件，减少HTTP请求次数
 
