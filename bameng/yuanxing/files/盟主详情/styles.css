@@ -3170,3 +3170,49 @@
   width:56px;
   word-wrap:break-word;
 }
+#u288 {
+  position:absolute;
+  left:990px;
+  top:309px;
+  width:88px;
+  height:20px;
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  text-align:right;
+}
+#u288_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:88px;
+  height:20px;
+}
+#u289 {
+  position:absolute;
+  left:2px;
+  top:2px;
+  width:84px;
+  word-wrap:break-word;
+}
+#u290 {
+  position:absolute;
+  left:1088px;
+  top:309px;
+  width:161px;
+  height:20px;
+}
+#u290_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:161px;
+  height:20px;
+}
+#u291 {
+  position:absolute;
+  left:2px;
+  top:2px;
+  width:157px;
+  word-wrap:break-word;
+}
