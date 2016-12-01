@@ -1,6 +1,6 @@
 {
   "root": "http://resali.huobanplus.com/cdn/",
-  "release": "2016.11.16",
+  "release": "2016.12.01",
   "libs": [
     {
       "name": "bootstrap",
@@ -86,6 +86,15 @@
         "css/jquery.dataTables.min.css",
         "css/dataTables.jqueryui.min.css",
         "css/dataTables.bootstrap.min.css"
+      ]
+    },
+    {
+      "name": "jquery-clean",
+      "jquery": true,
+      "url": "https://github.com/MrAntix/jquery-clean",
+      "version": ["1.4.2"],
+      "resource": [
+        "jquery.htmlClean.min.js"
       ]
     },
     {

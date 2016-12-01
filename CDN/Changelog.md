@@ -1,3 +1,6 @@
+#### #Update 2016-12-01
+添加插件 jquery.htmlClean.js
+
 #### #Update 2016-11-16
 
 ###### clipboard
