@@ -1,3 +1,9 @@
+#### #Update 2016-12-19
+> WeUI 为微信 Web 服务量身设计
+此版本适合为1.1.0版本，
+
+jquery-weui 的 weui 版本是 0.4.3，0.4.3 直接就是 1.x.x，中间暂时没有其他版本 :joy:。
+
 #### #Update 2016-12-01
 添加插件 jquery.htmlClean.js
 

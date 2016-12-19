@@ -1,6 +1,6 @@
 {
   "root": "http://resali.huobanplus.com/cdn/",
-  "release": "2016.12.01",
+  "release": "2016.12.19",
   "libs": [
     {
       "name": "bootstrap",
@@ -191,6 +191,15 @@
         "swiper.jquery.min.js",
         "swiper.jquery.umd.min.js",
         "css/swiper.min.css"
+      ]
+    },
+    {
+      "name": "weui",
+      "jquery": false,
+      "url": "https://github.com/weui/weui/wiki",
+      "version": ["1.1.0"],
+      "resource": [
+        "weui.min.css"
       ]
     },
     {
