@@ -1,3 +1,8 @@
+#### #Update 2016-12-26
+
+###### jquery-weui
+添加个人修复版本，坐等作者更新，只好先使用 fixed 版本，或者 @Neo Chang 要本地版本。
+
 #### #Update 2016-12-20
 
 ###### jQuery

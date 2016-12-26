@@ -1,6 +1,6 @@
 {
   "root": "http://resali.huobanplus.com/cdn/",
-  "release": "2016.12.19",
+  "release": "2016.12.26",
   "libs": [
     {
       "name": "bootstrap",
@@ -169,7 +169,8 @@
         "swiper.min.js",
         "city-picker.min.js",
         "weui.min.css",
-        "jquery-weui.min.css"
+        "jquery-weui.min.css",
+        "fixed/jquery-weui.js"
       ]
     },
     {
