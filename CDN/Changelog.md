@@ -1,3 +1,8 @@
+#### #Update 2016-12-28
+
+###### jquery-cookie
+添加 jquery.cookie.js
+
 #### #Update 2016-12-26
 
 ###### jquery-weui

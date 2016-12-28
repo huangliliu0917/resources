@@ -1,6 +1,6 @@
 {
   "root": "http://resali.huobanplus.com/cdn/",
-  "release": "2016.12.26",
+  "release": "2016.12.28",
   "libs": [
     {
       "name": "bootstrap",
@@ -95,6 +95,15 @@
       "version": ["1.4.2"],
       "resource": [
         "jquery.htmlClean.min.js"
+      ]
+    },
+    {
+      "name": "jquery-cookie",
+      "jquery": true,
+      "url": "#",
+      "version": ["1.4.1"],
+      "resource": [
+        "jquery.cookie.min.js"
       ]
     },
     {
