@@ -1287,3 +1287,46 @@
   width:1px;
   height:384px;
 }
+#u114 {
+  position:absolute;
+  left:106px;
+  top:271px;
+  width:260px;
+  height:29px;
+}
+#u114_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:260px;
+  height:29px;
+}
+#u115 {
+  position:absolute;
+  left:2px;
+  top:6px;
+  width:256px;
+  word-wrap:break-word;
+}
+#u116 {
+  position:absolute;
+  left:322px;
+  top:269px;
+  width:32px;
+  height:32px;
+}
+#u116_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:32px;
+  height:32px;
+}
+#u117 {
+  position:absolute;
+  left:2px;
+  top:8px;
+  width:28px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
