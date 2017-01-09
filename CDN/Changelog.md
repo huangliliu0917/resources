@@ -1,7 +1,7 @@
 #### #Update 2017-01-09
 
 ###### jquery-weui
-添加 1.1.0 版本 因为和 0.8.3 版本不兼容。主要改变在 class 的变化上。
+添加 1.1.0 版本 因为和 0.8.3 版本不兼容，两个版本同时存在。主要改变在 class 的变化上。
 [changelog.md](https://github.com/lihongxun945/jquery-weui/blob/master/changelog.md)
 
 #### #Update 2017-01-07
