@@ -1,6 +1,6 @@
 {
   "root": "http://resali.huobanplus.com/cdn/",
-  "release": "2017.01.09",
+  "release": "2017.02.27",
   "libs": [
     {
       "name": "bootstrap",
@@ -144,6 +144,18 @@
         "jquery-ui.min.css",
         "jquery-ui.structure.min.css",
         "jquery-ui.theme.min.css"
+      ]
+    },
+    {
+      "name": "ueditor",
+      "jquery": false,
+      "url": "http://ueditor.baidu.com/website/",
+      "version": ["1.4.3.3"],
+      "resource": [
+        "ueditor.config.js",
+        "ueditor.all.min.js",
+        "ueditor.parse.js",
+        "lang/zh-cn/zh-cn.js"
       ]
     },
     {
