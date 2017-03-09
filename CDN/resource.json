@@ -15,7 +15,7 @@
     {
       "name": "ckeditor",
       "url": "http://ckeditor.com/",
-      "version": ["4.6.2"],
+      "version": ["4.5.10"],
       "resource": [
         "standard/ckeditor.js",
         "standard/adapters/jquery.js"

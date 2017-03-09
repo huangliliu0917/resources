@@ -3,9 +3,6 @@
 ###### huotuplus 相关插件更新
 hplus.min.js -> hplus.min-1.0.1.js
 
-###### ckeditor
-更新至 4.6.2
-
 ###### clipboard
 更新至 1.6.1
 
