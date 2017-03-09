@@ -173,7 +173,7 @@
       "name": "jquery-validation",
       "jquery": true,
       "url": "https://jqueryvalidation.org/",
-      "version": ["1.16"],
+      "version": ["1.16.0"],
       "resource": [
         "jquery.validate.min.js",
         "additional-methods.min.js",
