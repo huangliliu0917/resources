@@ -1,6 +1,6 @@
 {
   "root": "http://resali.huobanplus.com/cdn/",
-  "release": "2017.02.27",
+  "release": "2017.03.09",
   "libs": [
     {
       "name": "bootstrap",
@@ -15,7 +15,7 @@
     {
       "name": "ckeditor",
       "url": "http://ckeditor.com/",
-      "version": ["4.5.10"],
+      "version": ["4.6.2"],
       "resource": [
         "standard/ckeditor.js",
         "standard/adapters/jquery.js"
@@ -24,7 +24,7 @@
     {
       "name": "clipboard",
       "url": "https://clipboardjs.com/",
-      "version": ["1.5.15"],
+      "version": ["1.6.1"],
       "resource": [
         "clipboard.min.js"
       ]
@@ -32,7 +32,7 @@
     {
       "name": "countUp",
       "url": "http://inorganik.github.io/countUp.js/",
-      "version": ["1.7.1"],
+      "version": ["1.8.2"],
       "resource": [
         "countUp.min.js"
       ]
@@ -40,7 +40,7 @@
     {
       "name": "fine-uploader",
       "url": "http://fineuploader.com/",
-      "version": ["5.11.9"],
+      "version": ["5.14.1"],
       "resource": [
         "fine-uploader.min.css",
         "fine-uploader-new.min.css",
@@ -77,7 +77,7 @@
       "name": "jquery.dataTables",
       "jquery": true,
       "url": "https://www.datatables.net/",
-      "version": ["1.10.12"],
+      "version": ["1.10.13"],
       "resource": [
         "jquery.dataTables.min.js",
         "dataTables.jqueryui.min.js",
@@ -129,7 +129,7 @@
       "name": "jquery-form",
       "jquery": true,
       "url": "http://jquery.malsup.com/form/",
-      "version": ["3.51"],
+      "version": ["4.0.1"],
       "resource": [
         "jquery.form.min.js"
       ]
@@ -173,7 +173,7 @@
       "name": "jquery-validation",
       "jquery": true,
       "url": "https://jqueryvalidation.org/",
-      "version": ["1.15.1"],
+      "version": ["1.16"],
       "resource": [
         "jquery.validate.min.js",
         "additional-methods.min.js",
@@ -184,7 +184,7 @@
       "name": "jquery-weui",
       "jquery": true,
       "url": "http://jqweui.com/",
-      "version": ["0.8.3", "1.0.0"],
+      "version": ["0.8.3", "1.0.1"],
       "resource": [
         "jquery-weui.min.js",
         "swiper.min.js",
@@ -197,7 +197,7 @@
       "name": "layer",
       "jquery": true,
       "url": "http://layer.layui.com/",
-      "version": ["3.0.1"],
+      "version": ["3.0.3"],
       "resource": [
         "layer.js"
       ]
@@ -236,7 +236,7 @@
       "name": "zTree",
       "jquery": true,
       "url": "http://www.treejs.cn/v3/main.php#_zTreeInfo",
-      "version": ["3.5.24"],
+      "version": ["3.5.28"],
       "resource": [
         "jquery.ztree.all.min.js",
         "jquery.ztree.core.min.js",
@@ -312,7 +312,7 @@
       "resource": [
         "contabs.min.js",
         "content.min.js",
-        "hplus.min.js",
+        "hplus.min-1.0.1.js",
         "welcome.min.js",
         "jquery-ui-1.10.4.min.js",
         "jquery-ui.custom.min.js",

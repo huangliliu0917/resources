@@ -1,3 +1,38 @@
+#### #Update 2017-03-09
+
+###### huotuplus 相关插件更新
+hplus.min.js -> hplus.min-1.0.1.js
+
+###### ckeditor
+更新至 4.6.2
+
+###### clipboard
+更新至 1.6.1
+
+###### CountUp.js
+更新至 1.8.2
+
+###### fine-uploader
+更新至 5.14.1
+
+###### jquery.dataTables
+更新至 1.10.13
+
+###### jquery-form
+更新至 4.0.1
+
+###### jquery-validation
+更新至 1.16
+
+###### jquery weui
+更新至 1.0.1
+
+###### layer
+更新至 3.0.3
+
+###### zTree
+更新至 3.5.28
+
 #### #Update 2017-02-27
 
 ###### ueditor
