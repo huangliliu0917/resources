@@ -30,14 +30,6 @@
       ]
     },
     {
-      "name": "countUp",
-      "url": "http://inorganik.github.io/countUp.js/",
-      "version": ["1.8.2"],
-      "resource": [
-        "countUp.min.js"
-      ]
-    },
-    {
       "name": "fine-uploader",
       "url": "http://fineuploader.com/",
       "version": ["5.14.1"],
@@ -68,7 +60,7 @@
     {
       "name": "jquery",
       "url": "http://jquery.com/",
-      "version": ["1.9.1","1.12.4","2.2.4","3.1.1"],
+      "version": ["1.9.1","1.12.4","2.2.4","3.2.1"],
       "resource": [
         "jquery.min.js"
       ]
@@ -263,7 +255,7 @@
       "resource": [
         "animate.min.css",
         "login.min.css",
-        "style.min-1.0.2.css",
+        "style.min-1.0.3.css",
         "plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css",
         "plugins/blueimp/css/blueimp-gallery.min.css",
         "plugins/bootstrap-table/bootstrap-table.min.css",
