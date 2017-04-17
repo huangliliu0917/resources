@@ -1,6 +1,6 @@
 {
   "root": "http://resali.huobanplus.com/cdn/",
-  "release": "2017.03.09",
+  "release": "2017.04.17",
   "libs": [
     {
       "name": "bootstrap",
@@ -27,6 +27,16 @@
       "version": ["1.6.1"],
       "resource": [
         "clipboard.min.js"
+      ]
+    },
+    {
+      "name": "echarts",
+      "url": "http://echarts.baidu.com/",
+      "version": ["3.5.3"],
+      "resource": [
+        "echarts.min.js",
+        "echarts.simple.min.js",
+        "echarts.common.min.js"
       ]
     },
     {
