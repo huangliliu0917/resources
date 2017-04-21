@@ -1,6 +1,6 @@
 {
   "root": "http://resali.huobanplus.com/cdn/",
-  "release": "2017.04.17",
+  "release": "2017.04.21",
   "libs": [
     {
       "name": "bootstrap",
@@ -256,6 +256,21 @@
       "version": ["2.3"],
       "resource": [
         "jquery.json-2.3.min.js"
+      ]
+    },
+    {
+      "name": "WebUploader",
+      "url": "http://fex.baidu.com/webuploader/",
+      "version": ["0.1.6"],
+      "resource": [
+        "webuploader.min.js",
+        "webuploader.nolog.min.js",
+        "webuploader.custom.min.js",
+        "webuploader.noimage.min.js",
+        "webuploader.flashonly.min.js",
+        "webuploader.html5only.min.js",
+        "webuploader.withoutimage.min.js",
+        "Uploader.swf"
       ]
     },
     {

@@ -1,3 +1,8 @@
+#### #Update 2017-04-21
+
+###### WebUploader
+添加百度上传插件
+
 #### #Update 2017-03-09
 
 ###### huotuplus 相关插件更新
