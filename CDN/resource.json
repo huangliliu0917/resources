@@ -263,6 +263,7 @@
       "url": "http://fex.baidu.com/webuploader/",
       "version": ["0.1.6"],
       "resource": [
+        "webuploader.css",
         "webuploader.min.js",
         "webuploader.nolog.min.js",
         "webuploader.custom.min.js",
