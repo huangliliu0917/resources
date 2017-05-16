@@ -1,6 +1,6 @@
 {
   "root": "http://resali.huobanplus.com/cdn/",
-  "release": "2017.04.21",
+  "release": "2017.05.16",
   "libs": [
     {
       "name": "bootstrap",
@@ -131,7 +131,7 @@
       "name": "jquery-form",
       "jquery": true,
       "url": "http://jquery.malsup.com/form/",
-      "version": ["4.0.1"],
+      "version": ["4.2.1"],
       "resource": [
         "jquery.form.min.js"
       ]
